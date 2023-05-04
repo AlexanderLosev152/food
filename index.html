@@ -1,38 +1,191 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-  <link rel="stylesheet" href="styles/style.css">
-  <title>Food Website</title>
-</head>
-<body>
-  <header class="header">
-    <a class="logo" href="#">Taste</a>
-    <div class="bx bx-menu" id="menu__icon"></div>
-    <nav>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles/style.css" />
+    <title>Food Website</title>
+  </head>
+  <body>
+    <header class="header">
+      <a class="logo" href="#">Taste</a>
+      <div class="bx bx-menu" id="menu__icon"></div>
       <ul class="navbar">
         <li><a href="#home">Home</a></li>
         <li><a href="#about">About</a></li>
         <li><a href="#menu">Menu</a></li>
         <li><a href="#contact">Contact</a></li>
+        <!-- черный  режим -->
+        <div class="bx bx-moon" id="darkmode"></div>
       </ul>
-    </nav>
-  </header>
+    </header>
 
-  <!-- home -->
-  <section class="home" id="home">
-    <div class="home__text">
-      <h1>Food Taste</h1>
-      <h2>The tasty food of <br> your choice</h2>
-      <a class="btn" href="#">Viev Menu</a>
+    <!-- home -->
+    <section class="home" id="home">
+      <div class="home__text">
+        <h1>Food Taste</h1>
+        <h2>
+          The tasty food of <br />
+          your choice
+        </h2>
+        <a class="btn" href="#">Viev Menu</a>
+      </div>
+      <div class="home__img">
+        <img src="images/burger.png" alt="burger" />
+      </div>
+    </section>
+
+    <!-- about -->
+    <section class="about" id="about">
+      <div class="about__img">
+        <img src="images/burger1.jpeg" alt="burger" />
+      </div>
+      <div class="about__text">
+        <span>About Us</span>
+        <h2>
+          We make good and <br />
+          trasty food
+        </h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus,
+          dolorum. Velit aperiam deserunt voluptatibus sit quaerat porro atque
+          magni dolorum.
+        </p>
+        <a class="btn" href="#">Learn More</a>
+      </div>
+    </section>
+
+    <!-- menu -->
+    <section class="menu" id="menu">
+      <div class="heading">
+        <span>Menu</span>
+        <h2>Tasty menu of the week</h2>
+      </div>
+      <div class="menu__container">
+        <div class="box">
+          <div class="box__img">
+            <img src="images/grandburger.jpg" alt="burger" />
+          </div>
+          <h2>Cheese Burger</h2>
+          <h3>Tasty Food</h3>
+          <span>$12.05</span>
+          <i class="bx bx-cart-alt"></i>
+        </div>
+        <div class="box">
+          <div class="box__img">
+            <img src="images/grandburger1.jpg" alt="burger" />
+          </div>
+          <h2>Cheese Burger</h2>
+          <h3>Tasty Food</h3>
+          <span>$12.05</span>
+          <i class="bx bx-cart-alt"></i>
+        </div>
+        <div class="box">
+          <div class="box__img">
+            <img src="images/grandslamburger2.jpg" alt="burger" />
+          </div>
+          <h2>Cheese Burger</h2>
+          <h3>Tasty Food</h3>
+          <span>$12.05</span>
+          <i class="bx bx-cart-alt"></i>
+        </div>
+      </div>
+    </section>
+
+    <!-- service -->
+    <section class="service" id="service">
+      <div class="heading">
+        <span>Services</span>
+        <h2>We provide best food services</h2>
+      </div>
+      <div class="services__container">
+        <div class="s__box">
+          <img
+            src="https://i.etsystatic.com/9814993/r/il/bffb12/2296566514/il_fullxfull.2296566514_nh8l.jpg"
+            alt="burger"
+          />
+          <h3>You Order</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae,
+            delectus placeat. Consectetur ut necessitatibus nihil.
+          </p>
+        </div>
+        <div class="s__box">
+          <img
+            src="https://www.thebalancemoney.com/thmb/P8A-KuoZicPhkH3aXc8-fB-of4o=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Shipping-Companies_-Phiwath-Jittamas-0898281a77694191a11ff10ee890f72a.jpg"
+            alt="burger"
+          />
+          <h3>Shipping</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae,
+            delectus placeat. Consectetur ut necessitatibus nihil.
+          </p>
+        </div>
+        <div class="s__box">
+          <img
+            src="https://thumbs.dreamstime.com/b/delivered-stamp-seal-illustration-design-delivered-stamp-illustration-106081799.jpg"
+            alt="burger"
+          />
+          <h3>Delivered</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae,
+            delectus placeat. Consectetur ut necessitatibus nihil.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- connect -->
+    <section class="connect">
+      <div class="connect__text">
+        <span>Let`s Talk</span>
+        <h2>Connect now</h2>
+      </div>
+      <a class="btn" href="#">Contact Us</a>
+    </section>
+
+    <!-- Contact -->
+    <section class="contact" id="contact">
+      <div class="contact__box">
+        <h3>Food Taste</h3>
+        <span>Connect With Us</span>
+        <div class="social">
+          <a href="#"><i class="bx bxl-facebook"></i></a>
+          <a href="#"><i class="bx bxl-twitter"></i></a>
+          <a href="#"><i class="bx bxl-instagram"></i></a>
+        </div>
+      </div>
+      <div class="contact__box">
+        <h3>Menu Links</h3>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </div>
+      <div class="contact__box">
+        <h3>Quick Links</h3>
+        <li><a href="#Contact">Contact</a></li>
+        <li><a href="#Privacy Policy">Privacy Policy</a></li>
+        <li><a href="#Disclaimer">Disclaimer</a></li>
+        <li><a href="#">Terms Of Use</a></li>
+      </div>
+      <div class="contact__box address">
+        <h3>Contact</h3>
+        <i class="bx bxs-map"><span>44 Street New York, USA</span></i>
+        <i class="bx bxs-phone"><span>+1 444 444 4444</span></i>
+        <i class="bx bxs-envelope"><span>Example#email.com</span></i>
+      </div>
+    </section>
+
+    <div class="copyright">
+      <p>&#169; AlexWeb All Right Reserved</p>
     </div>
-    <div class="home__img">
-      <img src="images/burger.png" alt="burger">
-    </div>
-  </section> 
-  <script src="js/main.js"></script>
-</body>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="js/main.js"></script>
+  </body>
 </html>
